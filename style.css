@@ -1,0 +1,19 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: aliceblue;
+  transform: scale(70%);
+  opacity: 30%;
+  transition: all .3s ease;
+
+}
+.swiper:hover .swiper-button-prev,
+.swiper:hover .swiper-button-next {
+  opacity: 1;
+}
